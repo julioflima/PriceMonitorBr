@@ -1,0 +1,26 @@
+{
+  "name": "Price Monitor Br",
+  "version": "1.0",
+  "description": "Monitor Price from Amazon in Brazil!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["assets/js/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "assets/images/price-tag-16.png",
+      "32": "assets/images/price-tag-32.png",
+      "48": "assets/images/price-tag-48.png",
+      "128": "assets/images/price-tag-128.png"
+    },
+      "icon": {
+        "16": "assets/images/price-tag-16.png",
+        "32": "assets/images/price-tag-32.png",
+        "48": "assets/images/price-tag-48.png",
+        "128": "assets/images/price-tag-128.png"
+      }
+  },
+  "manifest_version": 2
+}
